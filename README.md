@@ -32,6 +32,12 @@ A 6 DoF peripheral fo CAD input.
 <img src="./imgs/p5.jpeg" width="233">
 </p>
 
+
+https://github.com/user-attachments/assets/f231d02b-527b-4762-a200-921404486fa5
+
+*Video 1: Navigating in Fusion 360 with TrackpuckTools Add-ins
+
+
 ### BOM
 |Unit|Item|
 |-|-|
