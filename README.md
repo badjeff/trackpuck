@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/f231d02b-527b-4762-a200-921404486fa5
 |1|3x4x2mm Tact Switch Turtle Switch|
 |1|601230 Lipo Battery (plus connector)|
 |6|6mm x 12mm x 4.7mm Springs|
-|10|M2 Thread Head Inserts 3.1mm x 3mm (Diameter x Height) |
+|10|M2 Threaded Heat Set Inserts 3mm x 3mm (Diameter x Height) |
 |6|10mm M2 Sunk Head Screws |
 |6|4mm M2 Sunk Head Screws|
 |4|3mm M2 Sunk Head Screws|
