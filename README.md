@@ -38,6 +38,11 @@ https://github.com/user-attachments/assets/f231d02b-527b-4762-a200-921404486fa5
 *Video 1: Navigating in Fusion 360 with TrackpuckTools Add-ins
 
 
+https://github.com/user-attachments/assets/83aaf9c9-1d84-4c99-927c-6f882763e450
+
+*Video 2: Navigating in Blender 4.5 with TrackpuckTools Extension Scripts
+
+
 ### BOM
 |Unit|Item|
 |-|-|
