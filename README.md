@@ -7,6 +7,7 @@
 ### Design Principles
 - 6DoF tracking output as HID Joystick
 - Integrated magnetometers [mlx90393-pcb](https://github.com/badjeff/mlx90393-pcb)
+- Do **NOT** spoof to be one specific peripheral. (Respect software terms-and-conditions from other vendors)
 - Powered by [ZMK](https://github.com/zmkfirmware/zmk) => OSS, on-devie profiling, say no to vendor lock eco-system
 - Compatible for seeed xiao ble form factor mcu board
 - 3D printed go-first
