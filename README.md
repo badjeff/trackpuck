@@ -7,12 +7,12 @@
 ### Design Principles
 - 6DoF tracking output as HID Joystick
 - Integrated magnetometers [mlx90393-pcb](https://github.com/badjeff/mlx90393-pcb)
-- Do **NOT** spoof to be one specific peripheral. (Respect software terms-and-conditions from other vendors)
+- Do **NOT** spoof to be one specific peripheral and complies with the software terms and conditions of other vendors
 - Powered by [ZMK](https://github.com/zmkfirmware/zmk) => OSS, on-devie profiling, say no to vendor lock eco-system
 - Compatible for seeed xiao ble form factor mcu board
 - 3D printed go-first
-- Wireless
-- Ligthweight
+- Wireless (but, magnetometer are not quite power efficient ATM)
+- Lightness (referring to weight and control)
 - Medium to small size
 - Rigid
 - Low Profile
@@ -69,11 +69,13 @@ https://github.com/user-attachments/assets/83aaf9c9-1d84-4c99-927c-6f882763e450
 - Build the core tower first.
 - Sensor breakouts order is counter clockwise started from 6 o'clock position
 - This peripheral doesn't required the weights. Use reusable self-adhesive sticky silicone gel pads from [Amazon](https://www.amazon.co.uk/silicone-Anti-Slip-holders-washable-transparent/dp/B07CGRHT31).
-- Tell AI agent read [this file](https://github.com/badjeff/trackpuck-zmk-config/blob/main/boards/shields/trackpuck/input_processor_trixer.c) before you prompt it to adjust the rates for you. But, you still can find each config description in .yml file before messing up the default rates.
+- Tell AI agent read [zmk,input-processor-trixer](https://github.com/badjeff/trackpuck-zmk-config/blob/main/boards/shields/trackpuck/input_processor_trixer.c) before you prompt it to adjust the rates for you. But, you still can find each config description in .yml file before messing up the default rates.
 
 ### Firmware
 
-The ZMK firmware config repository can be find at [here](https://github.com/badjeff/trackpuck-zmk-config).
+The ZMK firmware config repository can be find at [HERE](https://github.com/badjeff/trackpuck-zmk-config).
+
+The peripheral will present itself as a mixture of keyboard and joystick with ZMK module [zmk-hid-joystick](https://github.com/badjeff/zmk-hid-joystick). The sensors are handled by ZMK module [zmk-mlx90393-driver](https://github.com/badjeff/zmk-mlx90393-driver). 3D space convertion is handled in an embedded input-processor [zmk,input-processor-trixer](https://github.com/badjeff/trackpuck-zmk-config/blob/main/boards/shields/trackpuck/input_processor_trixer.c) in firmware config repo.
 
 ### Related Projects
 
